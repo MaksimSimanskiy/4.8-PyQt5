@@ -61,6 +61,5 @@ class Window(QWidget):
 application = Window()
 application.show()
 
-
 if __name__ == '__main__':
     sys.exit(app.exec())
