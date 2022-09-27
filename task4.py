@@ -58,8 +58,7 @@ class Window(QWidget):
         self.setLayout(vbox)
 
 
-application = Window()
-application.show()
-
 if __name__ == '__main__':
+    application = Window()
+    application.show()
     sys.exit(app.exec())

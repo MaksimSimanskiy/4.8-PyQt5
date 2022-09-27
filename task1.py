@@ -55,8 +55,7 @@ class Window(QWidget):
             self.lst1.addItem(item)
 
 
-application = Window()
-application.show()
-
 if __name__ == '__main__':
-    sys.exit(app.exec())
+    application = Window()
+    application.show()
+    sys.exit(app.exec_())
